@@ -1,0 +1,57 @@
+# Authentic Open License (AOL)
+Version 1.0
+
+Preamble
+---------
+The Authentic Open License (AOL) is designed to maximize openness while ensuring authenticity.
+It grants nearly unrestricted freedom to use, modify, and redistribute software, while requiring attribution
+when unmodified code remains. Unlike other open source licenses, AOL prevents superficial changes
+from erasing authorship and ensures that the software always remains under this same license.
+
+This license does not restrict private, local use. The rules regarding attribution, modification,
+and AOL licensing apply only when the software is shared, distributed, or otherwise made accessible
+outside the local environment.
+
+
+By using this software, you agree to the following terms.
+
+1. Grant of Rights
+-------------------
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell this software
+and derivative works, subject to the terms of this license.
+
+2. Attribution Requirement
+--------------------------
+- If you redistribute this software in unmodified or minimally modified form, you must provide clear
+  attribution to the original author.
+- Minimal modification includes trivial edits such as:
+  - Renaming functions, variables, file names, or classes **does not count as modification**, unless it results in
+    substantial performance improvement or resolves significant compatibility issues.
+  - Adjusting whitespace, formatting, or comments.
+  - Rearranging code without introducing meaningful new logic.
+- Significant modification is defined as altering at least **35% of the functional logic**, measured objectively by:
+  - Comparing the abstract syntax tree (AST) or equivalent parsed representation of the original file versus the modified file.
+  - Ignoring changes to whitespace, comments, formatting, or superficial renaming of identifiers.
+  - Counting changes that **alter control flow, data structures, or implemented algorithms** as functional modifications.
+- Attribution is optional when the threshold of significant modification is met, but remains encouraged.
+
+
+3. Licensing Condition (Strong Copyleft)
+----------------------------------------
+- This software and all derivative works must **always remain licensed under the Authentic Open License (AOL)**.
+- Relicensing under any other license (including MIT, GPL, Apache, BSD, proprietary, or closed-source)
+  is strictly prohibited.
+- AOL ensures that this software and all derivatives remain free and open forever.
+
+4. Prohibited Uses
+------------------
+This software may not be used for unlawful purposes under applicable law.
+
+5. Warranty Disclaimer
+----------------------
+This software is provided "as is", without warranty of any kind, express or implied.
+The authors shall not be held liable for any damages, losses, or claims arising from the use of this software.
+
+6. Acceptance
+--------------
+By obtaining, using, modifying, or distributing this software, you accept the terms of the Authentic Open License (AOL).
